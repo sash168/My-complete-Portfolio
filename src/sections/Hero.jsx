@@ -53,7 +53,7 @@ const Hero = () => {
                         <p className="text-white-50 md:text-xl mb-6 pointer-events-none">
                             Hi, I’m Sash, a Developer based in Mumbai, passionate about building efficient and scalable solutions through clean code.
                         </p>
-                        <Button text='Explore My Work' id='button' className="w-90 md:w-80 text-center"/>
+                        <Button text='Explore My Work' id='button' className="w-60 md:w-90 text-center"/>
                     </div>      
                   </div>
               </header>
