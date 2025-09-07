@@ -75,8 +75,8 @@ const Contact = () => {
                               </div>
                               <button type='submit'>
                                   <div className='cta-button group'>
-                                      <div className='bh-circle' />
-                                      <p>Send Message</p>
+                                      {/* <div className='bg-circle' /> */}
+                                      <p className="text">Send Message</p>
                                       <div className='arrow-wrapper'>
                                           <img src='/images/arrow-down.svg' alt='arrow'/>
                                       </div>

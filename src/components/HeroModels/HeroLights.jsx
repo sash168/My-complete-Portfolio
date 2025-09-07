@@ -29,7 +29,7 @@ const HeroLights = () => {
               object={new THREE.RectAreaLight('#A259FF', 8, 3, 2)}
               position={[1, 3, 4]}
               intensity={15}
-              rotatiom = {[-Math.PI/4, Math.PI/4, 0]}
+              rotation = {[-Math.PI/4, Math.PI/4, 0]}
           />
 
           <pointLight

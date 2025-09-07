@@ -65,7 +65,7 @@ const Experience = () => {
                               <div className='xl:w-2/6'>
                                   <GLowCard card={card} index={index}>
                                       <div>
-                                          <img src={card.imgPath} alt={card.title}/>
+                                          {/* <img src={card.imgPath} alt={card.title}/> */}
                                       </div>
                                   </GLowCard>
                               </div>

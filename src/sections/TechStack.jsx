@@ -25,7 +25,8 @@ const TechStack = () => {
           <div className='w-full h-full md:px-10 px-5'>
               <TitleHeader title='My Preferred Tech Stack' sub='What I bring to the Table' />
               <div className='tech-grid'>
-                  {techStackIcons.map((icon) => (
+                {/* For 3D models */}
+                  {/* {techStackIcons.map((icon) => (
                       <div key={icon.name} className='card-border tech-card overflow-hidden group xl:rounded-full rounded-lg'>
                           <div className='tech-card-animated-bg' />
                           <div className='tech-card-content'>
@@ -37,9 +38,9 @@ const TechStack = () => {
                               </div>
                           </div>
                       </div>
-                  ))}
+                  ))} */}
                     {/* if No 3D model we can also display images */}
-                  {/* {techStackImgs.map((icon) => (
+                   {techStackImgs.map((icon) => (
                       <div key={icon.name} className='card-border tech-card overflow-hidden group xl:rounded-full rounded-lg'>
                           <div className='tech-card-animated-bg' />
                           <div className='tech-card-content'>
@@ -51,7 +52,7 @@ const TechStack = () => {
                               </div>
                           </div>
                       </div>
-                  ))} */}
+                  ))}
 
 
               </div>

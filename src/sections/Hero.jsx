@@ -49,10 +49,12 @@ const Hero = () => {
                           <h1>into Real Projects</h1>
                           <h1>that Deliver Results</h1>
                       </div>
-                      <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">Hi, I am sash, a developer based in Mumbai, with a passion for code.</p>
-                      <Button className='md:w-80 md:h-16 w-60 h-12' id='button'
-                      text='See My Work'/>
-                      
+                    <div className="flex flex-col items-start text-left max-w-xl relative z-10">
+                        <p className="text-white-50 md:text-xl mb-6 pointer-events-none">
+                            Hi, I’m Sash, a Developer based in Mumbai, passionate about building efficient and scalable solutions through clean code.
+                        </p>
+                        <Button text='Explore My Work' className="w-60 md:w-80"/>
+                    </div>      
                   </div>
               </header>
               {/* right: 3D model */}
