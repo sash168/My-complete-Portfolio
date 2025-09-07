@@ -74,12 +74,12 @@ const Contact = () => {
                                   />
                               </div>
                               <button type='submit'>
-                                  <div className='cta-button group'>
+                                  <div className='cta-button group text-center'>
                                       {/* <div className='bg-circle' /> */}
                                       <p className="text">Send Message</p>
-                                      <div className='arrow-wrapper'>
+                                      {/* <div className='arrow-wrapper'>
                                           <img src='/images/arrow-down.svg' alt='arrow'/>
-                                      </div>
+                                      </div> */}
                                    </div>
                               </button>
                         </form>
